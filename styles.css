@@ -9,10 +9,16 @@ body {
     background: #361999;
 }
 
+.container {
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+}
+
 h1 {
     font-family: 'PT Serif', serif;
     font-weight: 700;
-    font-size: 5em;
+    font-size: calc(4em + 1vw);
     text-align: center;
     color: #f0eef7;
     text-shadow: 6px 6px #FF6495, 
@@ -39,7 +45,5 @@ h1 {
     0.75px 0.75px  #FF6495,
     0.5px 0.5px    #FF6495,
     0.25px 0.25px  #FF6495;
-    margin: auto;
-    padding: 4em;
-    animation: scatter 1.75s infinite;
+    padding: 20%;
 }
